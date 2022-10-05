@@ -7,7 +7,9 @@
     <title>ITANOS RESTAURANT</title>
 <!-- enlaces css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<link rel="stylesheet" href="../CSS/SLIDERIMAGE.CSS">
+    <link rel="stylesheet" href="../CSS/SLIDERIMAGE.CSS">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/fontawesome.css">
 </head>
 
 <!--Seccion redes sociales-->
@@ -36,7 +38,9 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="../IMG/banner4.JPG" alt="" class="d-block w-100 h-100">
-            <div class="carousel-caption"></div>
+            <div class="carousel-caption">
+                <p>BIENVENIDOS</p>
+            </div>
         </div>
 
         <div class="carousel-item">
@@ -85,5 +89,74 @@
 <center><a href="#INICIO"><img src="../IMG/inicio.png" width=80 height=70 alt="inicio"></a></center>
 <br>
 
+<section class="api-map" id="contact">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 map" id="map"></div>
+		</div>
+	</div>
+</section>
+<!-- SECCION FORM CONTACTO -->
+<section class="contact">
+	<div class="container">
+		<div class="row">
+				<div class="contact-caption clearfix">
+					<div class="contact-heading text-center">
+						<h2>Contactanos</h2>
+					</div>
+
+					<div class="col-md-5 contact-info text-left">
+						<h3>Informacion de Contacto</h3>
+						<div class="info-detail">
+							<ul><li><i class="fa fa-calendar"></i><span>Lunes - Viernes:</span> 9:00 AM to 6:00 PM</li></ul>
+							<ul><li><i class="fa fa-map-marker"></i><span>Direccion:</span> Av 1er de Mayo #25-30</li></ul>
+							<ul><li><i class="fa fa-phone"></i><span>Telefono:</span> 310-960-44-21</li></ul>
+							<ul><li><i class="fa fa-envelope"></i><span>Correo:</span> metal669@building.com</li></ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-md-offset-1 contact-form">
+						<h3>Dejanos un Mensaje</h3>
+
+						<form class="form">
+							<input class="name" type="text" placeholder="Nombre">
+							<input class="email" type="email" placeholder="Correo">
+							<input class="phone" type="text" placeholder="Telefono:">
+							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+							<input class="submit-btn" type="submit" value="Enviar">
+						</form>
+					</div>
+
+				</div>
+		</div>
+	</div>
+</section>
+
+<!-- SECFCION PIE DE PAGINA -->
+
+<footer class="footer clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 footer-para">
+				<p>&copy; <a href="https://www.mipagina.com">Andrés Vega</a> Todos los Derechos Reservados</p>
+			</div>
+
+			<div class="col-xs-6 text-right">
+				<a href=""><i class="fa fa-facebook"></i></a>
+				<a href=""><i class="fa fa-twitter"></i></a>
+				<a href=""><i class="fa fa-instagram"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 </html>
