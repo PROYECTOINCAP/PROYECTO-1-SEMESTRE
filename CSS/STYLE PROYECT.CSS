@@ -1,32 +1,43 @@
-:root{
-    --fondo: black;
-    --degrad: linear-gradient(90deg,black,red);
-    --font:white;
-}
-@font-face {
-    font-family: Garmouth Display;
-    src: url(../fonts/Garmouth\ Display\ DEMO.otf);
-}
+
 
 body{
     margin: 0;
+    text-align: left;
     font-family: Garmouth Display;
-    background-color:white , rgb(244, 12, 12); 
+     
     background-image: url(../IMG/sushiwok.jpg);
     position:relative;
     padding-bottom: 8em;
     min-height: 100vh;
 }
 
-.h3{
-    text-align: center;
-
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding:0 0;
+    display:flex;
+    align-items: right;
+    justify-content: space-between;
 }
+
+.collapse navbar-collapse{
+text-align:left;
+}
+
+.navbar-brand {
+font-size: 20px;
+left: 90px;
+text-align:left;
+color:center,rgb(255, 255, 255);
+font-weight:bold;
+padding: 0PX 0;
+}
+
 #miCarrusel,
 .carousel-inner,
 .carousel-item,
 .carousel-item.active{
-    height: 90vh;
+    height: 100vh;
 }
 .carousel-caption{
     background: rgba(0, 0, 0, 0.6);
@@ -82,7 +93,7 @@ body{
 
 .footer {
     background-color: black; 
-
+    width: 90%;
     padding: 2em 0;
     position: absolute;
     bottom: 0; 
