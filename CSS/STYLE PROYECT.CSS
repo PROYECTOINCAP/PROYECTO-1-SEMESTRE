@@ -97,11 +97,11 @@ padding: 0PX 0;
 }
 
 .Blanco {
-    background-color: #fff !important;
+    background-color: black !important;
 }
 
 .Blanco2 {
-    background-color: #fff !important;
+    background-color: whitesmoke !important;
 }
 
 .Widget-1,
@@ -112,9 +112,9 @@ padding: 0PX 0;
 .Widget-6,
 .Widget-7,
 .Widget-8 {
-    background-color: #12203e !important;
-    color: #fff;
-    border: #fff 8px solid;
+    background-color: blue !important;
+    color: bisque;
+    border: blanchedalmond 8px solid;
 }
 
 img.showText {
